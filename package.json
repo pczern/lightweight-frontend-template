@@ -1,0 +1,31 @@
+{
+  "name": "lightweight-frontend-template",
+  "version": "1.0.0",
+  "main": "/dist/main.js",
+  "repository": "https://github.com/pczern/faintless.git",
+  "author": "me@pczern.dev",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-knobs": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "@types/storybook__react": "^4.0.2",
+    "babel-loader": "^8.0.6",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-react": "^7.14.2",
+    "typescript": "^3.5.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "webpack"
+  }
+}
